@@ -55,8 +55,7 @@
     margin-right: auto;
     margin-top: 20px;
     color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 0;
 }
 
 .帯{
@@ -70,6 +69,7 @@
 .帯-wrapper {
     display: inline-block;
     margin: 0 auto;
+    padding: 0 8px;
 }
 
 .帯-item{
@@ -111,34 +111,58 @@
 .heading{
     background-color: #252525;
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bolder;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 32px;
+}
+
+@media screen and (min-width: 600px) {
+    .heading{
+        font-size: 50px;
+        padding-top: 50px;
+    }
 }
 
 .concept-box{
     margin-top: 20px;
     border: 1px white solid;
-    display: flex;
     max-width: 900px;
-    padding: 40px;
+    padding: 40px 16px;
     margin-left: auto;
     margin-right: auto;
-    align-items: center;
 }
 
 .concept1{
     background-color: #252525;
-    font-size: 36px;
+    font-size: 32px;
     margin-right: 16px;
+    margin-bottom: 16px;
 }
 
 .concept2{
     background-color: #252525;
 }
 
+@media screen and (min-width: 600px) {
+    .concept-box{
+        display: flex;
+        align-items: center;
+        padding: 40px;
+        margin-bottom: 0;
+    }
+
+    .concept1 {
+        font-size: 36px;
+    }
+}
+
+.body1 {
+    padding: 0 8px;
+}
+
 .body2{
+    padding: 0 8px;
     background-color: #252525;
 }
 
@@ -148,10 +172,7 @@
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 24px;
 }
 
 @media screen and (min-width: 600px) {
@@ -159,6 +180,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 }
 
@@ -169,6 +194,7 @@
 .body3{
     background-color: #252525;
     color: white;
+    padding: 0 8px;
 }
 
 .news-box{
@@ -177,11 +203,21 @@
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 40px;
-    padding-bottom: 100px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 24px;
 }
+
+@media screen and (min-width: 600px) {
+    .world-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
 
 .news1{
 
@@ -247,10 +283,15 @@
 
 .footer-link{
     background-color: white;
+    padding: 8px 0;
 }
 
 .footer-link-item{
     color: black;
     text-align: center;
+    margin: 8px 0;
 }
 
+.footer-link-item a {
+    color: #068362;
+}
