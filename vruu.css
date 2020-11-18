@@ -1,6 +1,4 @@
 .header-container{
-    display: flex;
-    justify-content: space-between;
     background-color: black;
     color: white;
     align-items: center;
@@ -8,10 +6,23 @@
     padding-bottom: 20px;
 }
 
+@media screen and (min-width: 600px) {
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
 .header-links{
     display: flex;
-    font-size: 24px;
+    font-size: 16px;
     margin-right: 40px;
+}
+
+@media screen and (min-width: 600px) {
+    .header-links{
+        font-size: 24px;
+    }
 }
 
 .header-title{
@@ -32,8 +43,13 @@
     background-color: #252525;
 }
 
+.top-image {
+    max-width: 100%;
+}
+
 .top-news{
     width: 640px;
+    max-width: 100%;
     border: white 1px solid;
     margin-left: auto;
     margin-right: auto;
@@ -44,16 +60,21 @@
 }
 
 .帯{
+    display: flex;
+    justify-content: center;
     background-color: black;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 530px;
+}
+
+.帯-wrapper {
+    display: inline-block;
+    margin: 0 auto;
 }
 
 .帯-item{
     color: yellow;
 }
-    
 
 .帯-item2{
     color: white;
@@ -131,9 +152,18 @@
     padding-bottom: 40px;
     padding-left: 50px;
     padding-right: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+}
+
+@media screen and (min-width: 600px) {
+    .world-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.world-box img {
+    max-width: 100%;
 }
 
 .body3{
@@ -163,9 +193,15 @@
     padding-bottom: 80px;
 }
 
-.credit{
+.credit {
+    display: flex;
+    justify-content: center;
     margin-top: 40px;
-    margin-left: 700px;
+    padding: 0 8px;
+}
+
+.credit-wrapper {
+    display: inline-block;
 }
 
 .credit table{
@@ -174,11 +210,22 @@
 }
 
 .credit table th{
-    padding: 8px 24px;
+    padding: 8px 16px;
 }
 
 .credit table td{
-    padding: 8px 24px;
+    padding: 8px 16px;
+}
+
+
+@media screen and (min-width: 600px) {
+    .credit table th{
+        padding: 8px 24px;
+    }
+
+    .credit table td{
+        padding: 8px 24px;
+    }
 }
 
 .footer-container{
