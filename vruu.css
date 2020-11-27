@@ -58,10 +58,11 @@
 .帯-item2{
     color: white;
     font-size: 25px;
+    display: flex;
 }
 
 .twitter-body{
-    background-color: #252525;
+    background-color: black;
 }
 
 .twitter-check{
