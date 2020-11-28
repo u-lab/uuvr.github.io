@@ -79,15 +79,17 @@
 .帯-item2{
     color: white;
     font-size: 25px;
+    display: flex;
 }
 
 .twitter-body{
-    background-color: #252525;
+    background-color: black;
 }
 
 .twitter-check{
     width: 200px;
     margin-left: auto;
+   
 }
 
 .twitter-button{
@@ -99,6 +101,8 @@
     display: flex;
     align-items: center;
     justify-items: center;
+    
+
 }
 
 .body1{
@@ -206,23 +210,6 @@
     padding: 24px;
 }
 
-@media screen and (min-width: 600px) {
-    .world-box {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-}
-
-
-.news1{
-
-}
-
 .body4{
     background-color: #252525;
     color: white;
@@ -292,6 +279,9 @@
     margin: 8px 0;
 }
 
+/* こんにちは */
 .footer-link-item a {
     color: #068362;
 }
+
+/* こんにちは */
