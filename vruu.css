@@ -42,6 +42,19 @@
     padding-bottom: 20px;
     background-color: #252525;
 }
+.top-wrapper img{
+    width: 100%;
+    height: auto;  /* ←縦横比を維持する高さを自動計算 */
+
+
+
+}
+@media screen and (min-width: 600px) {
+    .top-wrapper img{
+        width: 640px;
+        height: auto;  /* ←縦横比を維持する高さを自動計算 */
+    }
+}
 
 .top-image {
     max-width: 100%;
