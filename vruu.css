@@ -1,287 +1,293 @@
-.header-container{
-    background-color: black;
-    color: white;
-    align-items: center;
-    padding-top: 24px;
-    padding-bottom: 20px;
+.header-container {
+  background-color: black;
+  color: white;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 20px;
 }
 
 @media screen and (min-width: 600px) {
-    .header-container {
-        display: flex;
-        justify-content: space-between;
-    }
-}
-
-.header-links{
+  .header-container {
     display: flex;
-    font-size: 16px;
-    margin-right: 40px;
+    justify-content: space-between;
+  }
+}
+
+.header-links {
+  display: flex;
+  font-size: 16px;
+  margin-right: 40px;
 }
 
 @media screen and (min-width: 600px) {
-    .header-links{
-        font-size: 24px;
-    }
+  .header-links {
+    font-size: 24px;
+  }
 }
 
-.header-title{
-    font-size: 32px;
-    margin-left: 40px;
-    font-weight: bolder;
+.header-title {
+  font-size: 32px;
+  margin-left: 40px;
+  font-weight: bolder;
 }
 
-.header-link-item{
-    margin-left: 40px;
+.header-link-item {
+  margin-left: 40px;
 }
 
-.top-wrapper{
-    text-align: center;
-    margin-top: 60px;
-    padding-top: 80px;
-    padding-bottom: 20px;
-    background-color: #252525;
+.top-wrapper {
+  text-align: center;
+  margin-top: 60px;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  background-color: #252525;
+}
+.top-wrapper img {
+  width: 100%;
+  height: auto; /* ←縦横比を維持する高さを自動計算 */
+}
+@media screen and (min-width: 600px) {
+  .top-wrapper img {
+    width: 640px;
+    height: auto; /* ←縦横比を維持する高さを自動計算 */
+  }
 }
 
 .top-image {
-    max-width: 100%;
+  max-width: 100%;
 }
 
-.top-news{
-    width: 640px;
-    max-width: 100%;
-    border: white 1px solid;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    color: white;
-    padding: 10px 0;
+.top-news {
+  width: 640px;
+  max-width: 100%;
+  border: white 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  color: white;
+  padding: 10px 0;
 }
 
-.帯{
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.帯 {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .帯-wrapper {
-    display: inline-block;
-    margin: 0 auto;
-    padding: 0 8px;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 8px;
 }
 
-.帯-item{
-    color: yellow;
+.帯-item {
+  color: yellow;
 }
 
-.帯-item2{
-    color: white;
-    font-size: 25px;
-    display: flex;
+.帯-item2 {
+  color: white;
+  font-size: 25px;
+  display: flex;
 }
 
-.twitter-body{
-    background-color: #252525;
+.twitter-body {
+  background-color: #252525;
 }
 
-.twitter-check{
-    width: 200px;
-    margin-left: auto;
-   
+.twitter-check {
+  width: 200px;
+  margin-left: auto;
 }
 
-.twitter-button{
-    background-color: #00acee;
-    color: white;
-    padding: 10px 24px;
-    font-size: 24px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    
-
-}
-
-.body1{
-    background-color: #252525;
-    padding-top: 40px;
-    padding-bottom: 32px;
-    color: white;
-}
-
-.heading{
-    background-color: #252525;
-    color: white;
-    font-size: 40px;
-    font-weight: bolder;
-    text-align: center;
-    padding-top: 32px;
-}
-
-@media screen and (min-width: 600px) {
-    .heading{
-        font-size: 50px;
-        padding-top: 50px;
-    }
-}
-
-.concept-box{
-    margin-top: 20px;
-    border: 1px white solid;
-    max-width: 900px;
-    padding: 40px 16px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.concept1{
-    background-color: #252525;
-    font-size: 32px;
-    margin-right: 16px;
-    margin-bottom: 16px;
-}
-
-.concept2{
-    background-color: #252525;
-}
-
-@media screen and (min-width: 600px) {
-    .concept-box{
-        display: flex;
-        align-items: center;
-        padding: 40px;
-        margin-bottom: 0;
-    }
-
-    .concept1 {
-        font-size: 36px;
-    }
+.twitter-button {
+  background-color: #00acee;
+  color: white;
+  padding: 10px 24px;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-items: center;
 }
 
 .body1 {
-    padding: 0 8px;
+  background-color: #252525;
+  padding-top: 40px;
+  padding-bottom: 32px;
+  color: white;
 }
 
-.body2{
-    padding: 0 8px;
-    background-color: #252525;
-}
-
-.world-box{
-    border: white 1px solid;
-    max-width: 900px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 24px;
+.heading {
+  background-color: #252525;
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 32px;
 }
 
 @media screen and (min-width: 600px) {
-    .world-box {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
+  .heading {
+    font-size: 50px;
+    padding-top: 50px;
+  }
+}
+
+.concept-box {
+  margin-top: 20px;
+  border: 1px white solid;
+  max-width: 900px;
+  padding: 40px 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.concept1 {
+  background-color: #252525;
+  font-size: 32px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.concept2 {
+  background-color: #252525;
+}
+
+@media screen and (min-width: 600px) {
+  .concept-box {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    margin-bottom: 0;
+  }
+
+  .concept1 {
+    font-size: 36px;
+  }
+}
+
+.body1 {
+  padding: 0 8px;
+}
+
+.body2 {
+  padding: 0 8px;
+  background-color: #252525;
+}
+
+.world-box {
+  border: white 1px solid;
+  max-width: 900px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
+}
+
+@media screen and (min-width: 600px) {
+  .world-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
 
 .world-box img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
-.body3{
-    background-color: #252525;
-    color: white;
-    padding: 0 8px;
+.body3 {
+  background-color: #252525;
+  color: white;
+  padding: 0 8px;
 }
 
-.news-box{
-    border: white 1px solid;
-    max-width: 900px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 24px;
+.news-box {
+  border: white 1px solid;
+  max-width: 900px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
 }
 
-.body4{
-    background-color: #252525;
-    color: white;
-    padding-bottom: 80px;
+.body4 {
+  color: white;
+  background-color: #252525;
+  padding-bottom: 80px;
 }
 
 .credit {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    padding: 0 8px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 0 8px;
 }
 
 .credit-wrapper {
-    display: inline-block;
+  display: inline-block;
 }
 
-.credit table{
-    margin-top: 16px;
-    margin-bottom: 16px;
+.credit table {
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
-.credit table th{
-    padding: 8px 16px;
+.credit table th {
+  padding: 8px 16px;
 }
 
-.credit table td{
-    padding: 8px 16px;
+.credit table td {
+  padding: 8px 16px;
 }
-
 
 @media screen and (min-width: 600px) {
-    .credit table th{
-        padding: 8px 24px;
-    }
+  .credit table th {
+    padding: 8px 24px;
+  }
 
-    .credit table td{
-        padding: 8px 24px;
-    }
+  .credit table td {
+    padding: 8px 24px;
+  }
 }
 
-.footer-container{
-    background-color: black;
-    color: white;
-    padding-top: 30px;
-    padding-bottom: 200px;
+.footer-container {
+  background-color: black;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 200px;
 }
 
-.credit h3{
-    font-weight: bolder;
+.credit h3 {
+  font-weight: bolder;
 }
 
-.footer-title{
-    margin-left: 80px;
-    font-size: 40px;
-    font-weight: bolder;
+.footer-title {
+  margin-left: 80px;
+  font-size: 40px;
+  font-weight: bolder;
 }
 
-.footer-link{
-    background-color: white;
-    padding: 8px 0;
+.footer-link {
+  background-color: white;
+  padding: 8px 0;
 }
 
-.footer-link-item{
-    color: black;
-    text-align: center;
-    margin: 8px 0;
+.footer-link-item {
+  color: black;
+  text-align: center;
+  margin: 8px 0;
 }
 
 /* こんにちは */
 .footer-link-item a {
-    color: #068362;
+  color: #068362;
 }
 
 /* こんにちは */
