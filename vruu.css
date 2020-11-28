@@ -207,26 +207,6 @@
     padding: 24px;
 }
 
-<<<<<<< HEAD
-=======
-@media screen and (min-width: 600px) {
-    .world-box {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-}
-
-
-.news1{
-
-}
-
->>>>>>> eccd0dae787585ceaaec81b299129971f0a753b5
 .body4{
     background-color: #252525;
     color: white;
