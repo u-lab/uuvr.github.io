@@ -89,6 +89,7 @@
 .twitter-check{
     width: 200px;
     margin-left: auto;
+   
 }
 
 .twitter-button{
@@ -100,6 +101,8 @@
     display: flex;
     align-items: center;
     justify-items: center;
+    
+
 }
 
 .body1{
