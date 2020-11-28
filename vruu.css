@@ -216,12 +216,11 @@
   margin-right: auto;
   padding: 24px;
 }
-.body4{↩
 
-    color:white;
-    background-color:#252525;
-    color:white;
-    padding-bottom: 80px;
+.body4 {
+  color: white;
+  background-color: #252525;
+  padding-bottom: 80px;
 }
 
 .credit {
