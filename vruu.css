@@ -222,8 +222,24 @@
     margin-right: auto;
     padding: 24px;
 }
-
-.body4{
+@media screen and (min-width: 600px) {↩
+    .world-box {↩
+        display: flex;↩
+        justify-content: space-between;↩
+        align-items: center;↩
+        padding-top: 40px;↩
+        padding-bottom: 40px;↩
+        padding-left: 50px;↩
+        padding-right: 50px;↩
+    }↩
+}↩
+↩
+↩
+.news1{↩
+↩
+}↩
+↩
+.body4{↩
     background-color: #252525;
     color: white;
     padding-bottom: 80px;
