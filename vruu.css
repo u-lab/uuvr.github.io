@@ -102,7 +102,47 @@
 }
 
 .twitter-button {
-  background-color: #00acee;
+  background-color: #ff8c00;
+  color: white;
+  padding: 10px 24px;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.insta-body {
+  background-color: #252525;
+}
+
+.insta-check {
+  width: 200px;
+  margin-left: auto;
+}
+
+.insta-button {
+  background-color: #32cd32;
+  color: white;
+  padding: 10px 24px;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.tiktok-body {
+  background-color: #252525;
+}
+
+.tiktok-check {
+  width: 200px;
+  margin-left: auto;
+}
+
+.tiktok-button {
+  background-color: #dc143c;
   color: white;
   padding: 10px 24px;
   font-size: 24px;
@@ -177,6 +217,22 @@
   background-color: #252525;
 }
 
+.event-wrapper{
+  background-color: #252525;
+  text-align: center;
+}
+
+.event-item{
+  background-color: #252525;
+  color: white;
+  text-align: center;
+}
+
+.event-picture{
+  background-color: #252525;
+  padding-bottom: 40px;
+}
+
 .world-box {
   border: white 1px solid;
   max-width: 900px;
@@ -200,6 +256,19 @@
 
 .world-box img {
   max-width: 100%;
+}
+
+.schedule-link{
+  background-color: #252525;
+  color: white;
+}
+
+.schedule-link-heading{
+  margin-left: 410px;
+}
+
+.schedule-link-item{
+  text-align: center;
 }
 
 .body3 {
