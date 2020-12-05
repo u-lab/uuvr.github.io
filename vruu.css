@@ -48,6 +48,7 @@
 }
 @media screen and (min-width: 600px) {
   .top-wrapper img {
+    margin: auto;
     width: 640px;
     height: auto; /* ←縦横比を維持する高さを自動計算 */
   }
@@ -233,6 +234,14 @@
   padding-bottom: 40px;
 }
 
+@media screen and (min-width: 600px) {
+  .event-picture {
+    margin: auto;
+    width: 640px;
+    height: auto; /* ←縦横比を維持する高さを自動計算 */
+  }
+}
+
 .world-box {
   border: white 1px solid;
   max-width: 900px;
@@ -283,7 +292,7 @@
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  padding: 24px;
+  padding: 40px;
 }
 
 .body4 {
