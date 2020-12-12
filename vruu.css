@@ -288,12 +288,10 @@
 }
 
 .news-box {
-  border: white 1px solid;
   max-width: 900px;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  padding: 40px;
 }
 
 .body4 {
@@ -316,10 +314,14 @@
 .credit table {
   margin-top: 16px;
   margin-bottom: 16px;
+  width: 100%;
 }
 
 .credit table th {
   padding: 8px 16px;
+  width: 96px;
+  -moz-text-align-last: justify;
+  text-align-last: justify;
 }
 
 .credit table td {
@@ -328,7 +330,8 @@
 
 @media screen and (min-width: 600px) {
   .credit table th {
-    padding: 8px 24px;
+    padding: 8px 20px;
+    width: 108px;
   }
 
   .credit table td {
